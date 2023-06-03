@@ -1,0 +1,145 @@
+.nav-bar-a a{
+    margin: 0 20px;
+}
+
+section.bg-top{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 600px;
+    color: #fff;
+}
+
+.sec-bg-top{
+    position: relative;
+    top: 150px;
+}
+
+section.sec-line{
+    width: 100%;
+    height: 60px;
+    background-color: #0d6efd;
+}
+
+.line-menu svg{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+section.sec-sobre{
+    padding: 20px 0;
+    background-color: #ccc;
+}
+
+.saiba-mais{
+    width: 120px;
+}
+
+section.our-dif h2{
+    margin-top: 30px;
+}
+
+
+.box-dif{
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.profile-icon{
+    padding-bottom: 10px;
+}
+
+.box-dif p{
+    border-top: #000 dotted 2px;
+    padding: 30px 0;
+}
+
+section.our-list{
+    background-color: #0d6efd;
+    vertical-align: middle;
+    padding: 30px;
+    height: 110px;
+}
+
+.container-lista{
+    max-width: 900px;
+}
+
+.icon-bell svg{
+    margin: 0 20px;
+    font-size: 40px;
+}
+
+.icon-bell h2{
+    display: inline;
+    font-size: 24px;
+    vertical-align: middle;
+    
+}
+
+.form-inline{
+    margin: 0 20px;
+    display: inline;
+}
+
+.form-inline input{
+    position: relative;
+}
+
+.form-inline button{
+    position: relative;
+    top: -38px;
+    left: calc(100% + 20px);
+    background-color: #fff;
+    color: #0d6efd;
+    font-weight: bolder;
+}
+
+section.fale-conosco{
+    padding: 30px 0;
+    background-color: #ccc;
+}
+
+.fale-conosco label{
+    margin-top: 20px;
+}
+
+footer{
+    padding-top: 30px;
+}
+
+@media (max-width:768px){
+    .container-lista{
+        max-width: 540px;
+    }
+
+    section.our-list{
+        padding: 20px 0;
+        height: 200px;
+    }
+
+    .box-dif{
+        width: 100%;
+    }
+
+    .icon-bell{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #inputPassword2{
+        position: absolute;
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .form-inline button{
+        position: relative;
+        margin-top: 90px;
+    }
+    
+}
